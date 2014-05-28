@@ -1,0 +1,40 @@
+https://class.coursera.org/rprog-002/lecture/19
+everything in R is object
+
+5 basic or "atomic" classes of objects
+character
+numeric (real numbers)
+integer
+complex
+lopgical (True/False)
+
+THe most basic object is a vector
+vector()
+List is one exception - vector can contain objects of different classes
+
+numbers - double precision real numbers
+Capital L suffix for integers
+1 vs 1L
+Inf = infinity
+NaN - an indefinite value, not a number; missing value
+
+Objects can have attributes
+attributes()
+names, dimnames
+dimensions
+class
+length
+user-defined attributes/metadata
+
+> x <- 5 ## assignment
+> x ## autoprinting
+> print x ## explicit printing
+[1] 5 ## 1st element of vector x is 5
+
+> x <- 1:20 # the : operator is used to create integer sequences
+> x
+
+c() function an be used to create vectors or objects
+> x <- c(0.5,0.6)  ## numeric
+> x <- c(T,F)      ## logical
+> x <- c(1+oi, 2+4i)  ## complex 
