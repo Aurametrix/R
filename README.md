@@ -18,6 +18,8 @@ head(rownames(a), 3)
 
 install.packages("slidify")  #package name as argument, in the R console
 
+find.package("devtools")
+
 install.packages("slidify", "ggplot2", "devtools") 
 
 
@@ -31,3 +33,8 @@ http://www.bioconductor.org/install/
 
 The library() function is used to load packagesi nto R
 library(ggplot2)  # do not use quotes
+
+-- R tools (under Windows)
+http://cran.r-project.org/bin/windows/Rtools/
+find_rtools()  # should return true
+library(devtools)
