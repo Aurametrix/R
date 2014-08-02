@@ -1,0 +1,33 @@
+ML packages 
+
+CRAN - Package e1071 - for Naive Bayes, SVMs, Latent Class Analysis
+CRAN - Package rpart - regression trees
+CRAN - Package randomForest - Random Forests
+CRAN - Package gbm - Generalized boosting models
+CRAN - Package kernlab - Support vector machines (very important for many binomial problems)
+
+Bioconductor project provides many additional R packages for statistical data analysis in different life science areas
+> source("http://www.bioconductor.org/biocLite.R")
+> biocLite()
+> biocLite(c("GOstats", "Ruuid", "graph", "GO", "Category",
+"plier", "affylmGUI", "limmaGUI", "simpleaffy",
+"ath1121501", "ath1121501cdf", "ath1121501probe", "biomaRt",
+"affycoretools"))
+
+R Commands for Differential Expression Analysis
+# Create appropriate design matrix and assign column names
+> design <- model.matrix(∼ -1+factor(c(1,1,1,2,2,2,3,3,3)));
+colnames(design) <- c("S1", "S2", "S3")
+# Create appropriate contrast matrix for pairwise comparisons
+> contrast.matrix <- makeContrasts(S2-S1, S3-S2, S3-S1, levels=design)
+# Fit a linear model for each gene based on the given series of arrays
+> fit <- lmFit(eset, design)
+# Compute estimated coefficients and standard errors for a given set of
+contrasts
+> fit2 <- contrasts.fit(fit, contrast.matrix)
+# Compute moderated t-statistics and log-odds of differential expression
+by empirical Bayes shrinkage of the standard errors towards a common
+value
+> fit2 <- eBayes(fit2)
+# Generate list of top 10 DEGs for first comparison
+> topTable(fit2, coef=1, adjust="fdr", sort.by="B", number=10)
