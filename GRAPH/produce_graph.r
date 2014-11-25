@@ -10,3 +10,10 @@ lines(trucks, type="o", pch=22, lty=2, col="red")
 
 # Create a title with a red, bold/italic font
 title(main="Autos", col.main="red", font.main=4)
+
+# randomly generated graph
+numnodes <- 50
+the.graph <- grg.game(numnodes, 0.3)
+
+V(the.graph)$visited <- 0
+graph.degree <- degree(the.graph)
