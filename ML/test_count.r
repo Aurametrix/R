@@ -40,3 +40,34 @@ t <- as.data.frame(t.zoo)
 # Tell the user what dates are spanned by the data.
 #
 cat("Date range is", format(start(t.zoo)), "to", format(end(t.zoo)), "\n")
+
+# as.Date function assumes your date strings are formatted like yyyy-mm-dd,
+#If format is mm/dd/yy, include a format specification.
+#gld_dates <- as.Date(gld[,1], format="%m/%d/%y")
+#gdx_dates <- as.Date(gdx[,1], format="%m/%d/%y")
+
+# Augmented Dickey-Fuller test
+library(tseries)            # Load the tseries package
+
+# Setting alternative="stationary" chooses the appropriate test.
+# Setting k=0 forces a basic (not augmented) test.  See the
+# documentation for its full meaning.
+#
+ht <- adf.test(sprd, alternative="stationary", k=0)
+cat("ADF p-value is", ht$p-value, "\n")
+
+# The ht object contains the p-value from the ADF test.
+# The p-value is the probability that the spread is NOT
+# mean-reverting.  Hence, a small p-value means it is very
+# improbable that the spread is NOT mean-reverting
+# (got that?).
+#
+if (ht$p.value < 0.05) {
+    cat("The spread is likely mean-reverting.\n")
+} else {
+    cat("The spread is not mean-reverting.\n")
+}
+
+# to read data from websites
+#gld <- read.csv("http://ichart.finance.yahoo.com/table.csv?s=GLD&ignore=.csv", stringsAsFactors=F)
+#gdx <- read.csv("http://ichart.finance.yahoo.com/table.csv?s=GDX&ignore=.csv", stringsAsFactors=F)
