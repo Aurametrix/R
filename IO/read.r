@@ -35,6 +35,10 @@ read.delim(file, header = TRUE, sep = "\t", quote = "\"",
 read.delim2(file, header = TRUE, sep = "\t", quote = "\"",
             dec = ",", fill = TRUE, comment.char = "", ...)
 
+# library(gdata)
+data = read.xls("excelfile.xls")
+
+
 "library(foreign)package contains the following functions:
 data.restore   Read an S3 Binary File
 lookup.xport   Lookup Information on a SAS XPORT Format
