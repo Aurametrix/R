@@ -22,3 +22,17 @@ g <- function(x) {
                              }
 
 # What is the value of f(6)?
+# Answer: 22
+
+# Summarizing at each factor 
+
+# check two race tracks: find the means of the total time taken by cars to cross the track. 
+# “b” is the vector of total time taken by different cars and “a” is the vector of track on which this time is taken. The first element of the vector “b” corresponds to the first element of vector “a” (and so on).
+#> a <- c(1,1,1,1,2,2,2,2,2)
+#> b <- c(10,12,15,12,NA,30,42,38,40)
+
+#How do you find the mean time of each track using split function?
+
+# Answer
+# s <- split(b,a)
+# lapply(s,mean)
