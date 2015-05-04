@@ -1,10 +1,5 @@
-doors_puzzle <- function(ndoors=100,passes=100) {
-    doors <- rep(FALSE,ndoors)
-    for (ii in seq(1,passes)) {
-        mask <- seq(0,ndoors,ii)
-        doors[mask] <- !doors[mask]	
-    }
-    return (which(doors == TRUE))
+x <- rep(1, 100)
+for (i in 1:100-1) {
+    x <- xor(x, rep(c(rep(0,i),1), length.out=100))
 }
- 
-doors_puzzle()
+which(!x)
