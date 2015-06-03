@@ -38,3 +38,51 @@ library(ggplot2)  # do not use quotes
 http://cran.r-project.org/bin/windows/Rtools/
 find_rtools()  # should return true
 library(devtools)
+
+
+-- ML cheatsheet
+
+How heterogeneous is your problem?
+
+Some algorithms which can readily model discontinuous or highly heterogeneous data
+
+-Decision Trees
+-Regression Trees
+-Nearest Neighbour algorithms 
+
+Some algorithms which cannot (using these algorithms it might be advisable to build multiple models from different groups of data)
+
+-Generalized Linear Models including all fancy derivations of Least Squares Regression:
+-Logistic Regression
+-Power Regression
+-Least Absolute Deviations
+-Lasso
+-Ridge Regression
+-Elastic Net
+-Reduced Major Axis Regression
+
+Is a probabilistic approach suitable?
+
+Some algorithms which embody probabilistic assumptions
+
+-Naïve Bayes
+-Generalized Linear Models (see above)
+-Most Neural Networks (yes, including the "Deep" the variety)
+
+Some distinctly non-probabilistic algorithms
+
+-Support Vector Machines
+-Decision Trees
+-Various Nearest Neighbour algorithms
+
+Does your data contain high-order variable interactions?
+
+Some algorithms which can natively discover high-order variable interactions
+
+-"Deep" Neural Networks
+-Many "Kernelized" algorithms
+
+Some algorithms which are strongly limited by independence assumptions
+
+-Naïve Bayes
+-Most Generalized Linear Models
