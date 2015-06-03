@@ -1,0 +1,6 @@
+http://journal.frontiersin.org/article/10.3389/fbioe.2015.00087/abstract
+
+Uppal K, Soltow QA, Promislow DE, Wachtman LM, Quyyumi AA and Jones DP (2015). 
+MetabNet: an R package for metabolic association analysis of high-resolution metabolomics data. Front. Bioeng. Biotechnol. 3:87. doi: 10.3389/fbioe.2015.00087
+
+Liquid-chromatography high-resolution mass spectrometry provides capability to measure >40,000 ions derived from metabolites in biologic samples. This presents challenges to confirm identities of known chemicals and delineate potential metabolic pathway associations of unidentified chemicals. We provide an R package for metabolic network analysis, MetabNet, to perform targeted metabolome-wide association study (MWAS) of specific metabolites to facilitate detection of their related metabolic pathways and network structures.

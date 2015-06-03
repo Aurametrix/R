@@ -1,0 +1,3 @@
+
+export(metabnet,getCorchild)
+import(igraph, foreach, limma, rgl, doSNOW,mixOmics,WGCNA, gplots, corpcor, pcaMethods)
