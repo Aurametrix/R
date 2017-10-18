@@ -36,11 +36,13 @@ library(ggplot2)  # do not use quotes
 
 -- R tools (under Windows)
 http://cran.r-project.org/bin/windows/Rtools/
+
 find_rtools()  # should return true
+
 library(devtools)
 
 
--- ML cheatsheet
+### ML cheatsheet
 
 How heterogeneous is your problem?
 
@@ -86,3 +88,9 @@ Some algorithms which are strongly limited by independence assumptions
 
 -Naïve Bayes
 -Most Generalized Linear Models
+
+### biomedical
+
++ [microbiome package](http://microbiome.github.io/microbiome/)
++ [16S RNA analysis](https://microsud.github.io/Tools-Microbiome-Anlaysis/)
+
