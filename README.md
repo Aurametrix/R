@@ -89,13 +89,17 @@ Some algorithms which are strongly limited by independence assumptions
 -Naïve Bayes
 -Most Generalized Linear Models
 
-### biomedical
+### Biomedical
 
 + [microbiome package](http://microbiome.github.io/microbiome/)
 + [16S RNA analysis](https://microsud.github.io/Tools-Microbiome-Anlaysis/)
 
 
-## data science
+## Data Science
 + [tidyverse](https://www.tidyverse.org/)
 + [R for data science](http://r4ds.had.co.nz/)
 
+## Other
+
++ [Mathic](https://mathics.github.io/) - alternative to Mathematica
++ [Maxima](http://maxima.sourceforge.net/)
