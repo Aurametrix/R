@@ -11,3 +11,13 @@ atlas1006
 ## otu_table()   OTU Table:         [ 130 taxa and 1172 samples ]
 ## sample_data() Sample Data:       [ 1172 samples by 10 sample variables ]
 ## tax_table()   Taxonomy Table:    [ 130 taxa by 2 taxonomic ranks ]
+
+## https://github.com/microbiome/microbiome/
+install.packages("remotes")
+remotes::install_github("microbiome/microbiome")
+
+# alpha diversity
+library(microbiome)
+library(knitr)
+data(dietswap)
+pseq <- dietswap
