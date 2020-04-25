@@ -106,4 +106,6 @@ Some algorithms which are strongly limited by independence assumptions
 
 + [Mathic](https://mathics.github.io/) - alternative to Mathematica
 + [Maxima](http://maxima.sourceforge.net/)
-+ []wrappers for production](https://www.rplumber.io/.)
++ [wrappers for production](https://www.rplumber.io/)
+
++ [R 4.0](https://stat.ethz.ch/pipermail/r-announce/2020/000653.html)
