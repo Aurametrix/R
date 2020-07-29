@@ -92,8 +92,8 @@ Some algorithms which are strongly limited by independence assumptions
 ### Biomedical
 
 + [microbiome package](http://microbiome.github.io/microbiome/)
-+ [16S RNA analysis](https://microsud.github.io/Tools-Microbiome-Anlaysis/)
-
++ [16S RNA analysis]([https://github.com/microsud/Tools-Microbiome-Analysis])
++ [microbiome tutorials](https://microbiome.github.io/tutorials/)
 
 ## Data Science
 + [tidyverse](https://www.tidyverse.org/)
