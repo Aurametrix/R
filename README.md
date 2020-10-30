@@ -98,7 +98,8 @@ Some algorithms which are strongly limited by independence assumptions
 ## Data Science
 + [tidyverse](https://www.tidyverse.org/)
 + [R for data science](http://r4ds.had.co.nz/)
-+ [TExnets](https://github.com/cbail/textnets) - R package to perform automated text analysis using network techniques
++ [Texnets](https://github.com/cbail/textnets) - R package to perform automated text analysis using network techniques
++ [wiseR](https://github.com/SAFE-ICU/wiseR) - learning and extending Bayesian networks into Decision Networks
 + [Data Science in R and Python](https://www.anotherbookondatascience.com/)
 + [Development and Data Science Platform](https://github.com/WLOGSolutions/RSuite)
 
@@ -107,5 +108,5 @@ Some algorithms which are strongly limited by independence assumptions
 + [Mathic](https://mathics.github.io/) - alternative to Mathematica
 + [Maxima](http://maxima.sourceforge.net/)
 + [wrappers for production](https://www.rplumber.io/)
-
++ [Shiny](https://shiny.rstudio.com/) - webapps
 + [R 4.0](https://stat.ethz.ch/pipermail/r-announce/2020/000653.html)
