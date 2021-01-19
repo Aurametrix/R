@@ -94,6 +94,7 @@ Some algorithms which are strongly limited by independence assumptions
 + [microbiome package](http://microbiome.github.io/microbiome/)
 + [16S RNA analysis]([https://github.com/microsud/Tools-Microbiome-Analysis])
 + [microbiome tutorials](https://microbiome.github.io/tutorials/)
++ [COVID-19 symptom progression](https://github.com/j-larsen/Stochastic_Progression_of_COVID-19_Symptoms) -- [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7438535/)
 
 ## Data Science
 + [tidyverse](https://www.tidyverse.org/)
