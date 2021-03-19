@@ -13,6 +13,8 @@ JCVI Metagenomics Reports [METAREP9](https://github.com/jcvi/METAREP0) is an ope
 
 [Microbiome Analyst online]( http://www.microbiomeanalyst.ca)
 
-[umich list](https://guides.lib.umich.edu/c.php?g=283345&p=1888667)
+[Umich list](https://guides.lib.umich.edu/c.php?g=283345&p=1888667) - Other sources to discover software tools used in microbiomics
 
 [EMBL tools](https://microbiome-tools.embl.de/)
+
+[MDPbiome](https://github.com/beatrizgj/MDPbiome) - Markov Decision Processes to create "policy prescriptions" for microbiome engineering - [Bioinf. paper](https://academic.oup.com/bioinformatics/article/34/17/i838/5093255)
