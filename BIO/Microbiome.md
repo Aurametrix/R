@@ -18,3 +18,5 @@ JCVI Metagenomics Reports [METAREP9](https://github.com/jcvi/METAREP0) is an ope
 [EMBL tools](https://microbiome-tools.embl.de/)
 
 [MDPbiome](https://github.com/beatrizgj/MDPbiome) - Markov Decision Processes to create "policy prescriptions" for microbiome engineering - [Bioinf. paper](https://academic.oup.com/bioinformatics/article/34/17/i838/5093255)
+
+Microbiota Analysis in R  - https://rstudio-pubs-static.s3.amazonaws.com/268156_d3ea37937f4f4469839ab6fa2c483842.html
