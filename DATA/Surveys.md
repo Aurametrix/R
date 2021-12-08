@@ -53,3 +53,9 @@ the standardized regression weights (betas) solve the problem of the path coeffi
 
 
 After the evaluation of the F-value and R2, it is important to evaluate the regression beta coefficients.  The beta coefficients can be negative or positive, and have a t-value and significance of the t-value associated with each.  The beta coefficient is the degree of change in the outcome variable for every 1-unit of change in the predictor variable.  The t-test assesses whether the beta coefficient is significantly different from zero.
+
+[Survey analysis in R](https://r-survey.r-forge.r-project.org/survey/)
+
+[survey data analysis](https://stats.idre.ucla.edu/r/seminars/survey-data-analysis-with-r/)
+
+[survey analysis packages](https://epirhandbook.com/en/survey-analysis.html)
