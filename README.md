@@ -110,6 +110,8 @@ Some algorithms which are strongly limited by independence assumptions
 + [Maxima](http://maxima.sourceforge.net/)
 + [wrappers for production](https://www.rplumber.io/)
 + [music](https://flujoo.github.io/en/generate-accompaniment-progression/)
++ [ggplot book](https://ggplot2-book.org/)
++ [Tiny grammar of graphics](https://observablehq.com/@joshpoll/vvt-gog); see also [Wickham's paper](https://byrneslab.net/classes/biol607/readings/wickham_layered-grammar.pdf)
 + [Radian](https://github.com/randy3k/radian), an R console
 + [Shiny](https://shiny.rstudio.com/) - webapps
 + [R 4.0](https://stat.ethz.ch/pipermail/r-announce/2020/000653.html)
