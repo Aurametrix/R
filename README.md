@@ -112,6 +112,10 @@ Some algorithms which are strongly limited by independence assumptions
 + [music](https://flujoo.github.io/en/generate-accompaniment-progression/)
 + [ggplot book](https://ggplot2-book.org/)
 + [Tiny grammar of graphics](https://observablehq.com/@joshpoll/vvt-gog); see also [Wickham's paper](https://byrneslab.net/classes/biol607/readings/wickham_layered-grammar.pdf)
++ [Using R in Python]([http://www.webarray.org/softwares/PypeR](https://sourceforge.net/projects/rinpy/) - 
++ [Convert between R and Python](https://www.rdocumentation.org/packages/reticulate/versions/1.24/topics/r-py-conversion)
++ R equivalent of Pandas operations[](https://towardsdatascience.com/r-equivalent-of-7-common-pandas-operations-76b632fc801b)
+
 + [Radian](https://github.com/randy3k/radian), an R console
 + [Shiny](https://shiny.rstudio.com/) - webapps
 + [R 4.0](https://stat.ethz.ch/pipermail/r-announce/2020/000653.html)
