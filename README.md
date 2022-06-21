@@ -98,6 +98,8 @@ Some algorithms which are strongly limited by independence assumptions
 
 ## Data Science
 + [tidyverse](https://www.tidyverse.org/)
+     + [Tidyverse tips and tricks](https://oliviergimenez.github.io/tidyverse-tips/)
+     + [Tidy Tuesday: Analyzing crossword puzzles](https://www.youtube.com/watch?v=T11WKngDEGQ)
 + [R for data science](http://r4ds.had.co.nz/)
 + [Texnets](https://github.com/cbail/textnets) - R package to perform automated text analysis using network techniques
 + [wiseR](https://github.com/SAFE-ICU/wiseR) - learning and extending Bayesian networks into Decision Networks
