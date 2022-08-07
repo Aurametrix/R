@@ -95,6 +95,9 @@ Some algorithms which are strongly limited by independence assumptions
 + [16S RNA analysis]([https://github.com/microsud/Tools-Microbiome-Analysis])
 + [microbiome tutorials](https://microbiome.github.io/tutorials/)
 + [COVID-19 symptom progression](https://github.com/j-larsen/Stochastic_Progression_of_COVID-19_Symptoms) -- [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7438535/)
++ [Omicron neutralising antibodies after COVID-19 vaccination](https://github.com/EdjCarr/Crick-HD-Omicron-2021-12)
++ [Interrupted time series](https://github.com/kingqwert/R/blob/master/ARIMAITS_DS/fuzzyARIMAITS.R) applied to COVID-19 pandemic analysis [paper](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01662-1)
++ [PBPK model for fluvoxamine](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/tree/master/Fluvoxamine)
 
 ## Data Science
 + [tidyverse](https://www.tidyverse.org/)
