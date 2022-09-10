@@ -7,3 +7,7 @@ Code to reproduce the analyses published in [Nature Genetics](https://www.nature
 
 Mhealthannotator https://sage-bionetworks.github.io/mhealthannotator/
 presents physician raters with the photo and appropriate action button for scoring corresponding images
+
+
+Science Mapping Analysis with bibliometrix R-package
+http://bibliometrix.org/documents/bibliometrix_Report.html
