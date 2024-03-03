@@ -108,6 +108,7 @@ Some algorithms which are strongly limited by independence assumptions
 + [wiseR](https://github.com/SAFE-ICU/wiseR) - learning and extending Bayesian networks into Decision Networks
 + [Data Science in R and Python](https://www.anotherbookondatascience.com/)
 + [Development and Data Science Platform](https://github.com/WLOGSolutions/RSuite)
++ [Intro to Data Science](https://rafalab.dfci.harvard.edu/dsbook-part-1/)
 
 ## Other
 
