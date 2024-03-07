@@ -5,6 +5,7 @@ https://christophm.github.io/interpretable-ml-book/
 R packages used for examples
 https://christophm.github.io/interpretable-ml-book/r-packages-used-for-examples.html
 
+* [CATBOOST](https://catboost.ai/) - high-performance open source library for gradient boosting on decision trees; [R package installation](https://catboost.ai/en/docs/concepts/r-installation)
 
 Sample size calculations:
 
