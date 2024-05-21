@@ -120,6 +120,7 @@ Some algorithms which are strongly limited by independence assumptions
 + [Utility theory](https://lindeloev.github.io/utility-theory/): [code](https://github.com/lindeloev/utility-theory)
 + [PT](https://mran.microsoft.com/snapshot/2014-09-08_1746/web/packages/pt/vignettes/pt_vignette.pdf) - an R package for prospect theory
 + [Array Languages](https://jcarroll.com.au/2023/07/07/array-languages-r-vs-apl/) - R vs APL
++ [Formatted Spreadsheets can still work in R](https://luisdva.github.io/rstats/problematic-spreadsheets/)
 
 + [Tiny grammar of graphics](https://observablehq.com/@joshpoll/vvt-gog); see also [Wickham's paper](https://byrneslab.net/classes/biol607/readings/wickham_layered-grammar.pdf)
 + [Using R in Python]([http://www.webarray.org/softwares/PypeR](https://sourceforge.net/projects/rinpy/) - 
