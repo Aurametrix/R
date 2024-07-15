@@ -116,6 +116,7 @@ Some algorithms which are strongly limited by independence assumptions
 + [Maxima](http://maxima.sourceforge.net/)
 + [wrappers for production](https://www.rplumber.io/)
 + [music](https://flujoo.github.io/en/generate-accompaniment-progression/)
++ [Create music with R](https://github.com/flujoo/gm)
 + [ggplot book](https://ggplot2-book.org/)
 + [Utility theory](https://lindeloev.github.io/utility-theory/): [code](https://github.com/lindeloev/utility-theory)
 + [PT](https://mran.microsoft.com/snapshot/2014-09-08_1746/web/packages/pt/vignettes/pt_vignette.pdf) - an R package for prospect theory
