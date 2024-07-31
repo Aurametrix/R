@@ -12,6 +12,9 @@ Sample size calculations:
 + [Powmic](https://github.com/lichen-lab/powmic)
 + [The micropower package](https://github.com/brendankelly/micropower)
 
+
++ [The Truth about Linear Regression](https://www.stat.cmu.edu/~cshalizi/TALR/)
+
 Interesting Projects
 
 + [Single Cell Annotation with Local LLM](https://github.com/CelVoxes/ceLLama)
