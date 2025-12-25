@@ -11,3 +11,5 @@ presents physician raters with the photo and appropriate action button for scori
 
 Science Mapping Analysis with bibliometrix R-package
 http://bibliometrix.org/documents/bibliometrix_Report.html
+
+[IIDDA](https://github.com/canmod/iidda?tab=readme-ov-file#canmod-digitization-project) - International Infectious Disease Data Archive; [Learn More](https://canmod.net/digitization/)
